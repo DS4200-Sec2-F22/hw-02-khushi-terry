@@ -11,11 +11,6 @@ body {
     text-align: left;
  }
 
- h3{
-    text-align: center;
- }
-
-
  th{
     background-color: lightblue;
  }
@@ -33,31 +28,31 @@ body {
  p{
    color:darkblue
  }
-
- .container2 {
-  display: flex;
-  justify-content: space-between;
+ .circle {
+   width:100px;
+   height:100px;
+   opacity: 50%;
+   fill:aqua;
  }
 
- .my-rect {
-  fill: purple;
-  stroke: aqua;
-  stroke-width: 5px;
+ .circle:hover{
+   stroke:black
  }
 
- .my-rect:hover {
-  fill:aqua;
+ .rect{
+   width:100px;
+   height:100px;
+   fill:aquamarine;
+   stroke-width: 5px;
+   stroke:rgb(3, 4, 4);
  }
 
- .my-circle {
-  opacity: 50%;
-  fill: pink;
+ .rect:hover{
+   fill: blueviolet;
  }
 
- .my-circle:hover {
-  stroke: purple;
-  stroke-width: 3px;
+ #decoration{
+   display:flex;
+   justify-content: space-between;
  }
 
-
- 
