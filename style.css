@@ -56,3 +56,9 @@ body {
    justify-content: space-between;
  }
 
+ .img-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ }
+
