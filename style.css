@@ -11,6 +11,11 @@ body {
     text-align: left;
  }
 
+ h3{
+    text-align: center;
+ }
+
+
  th{
     background-color: lightblue;
  }
@@ -35,21 +40,23 @@ body {
  }
 
  .my-rect {
-  fill:rgb(0,0,255)
+  fill: purple;
+  stroke: aqua;
+  stroke-width: 5px;
  }
 
  .my-rect:hover {
-  fill:rgb(10,10,200);
-  border:solid black;
+  fill:aqua;
  }
 
  .my-circle {
-  fill:rgb(255,0,0)
-  opacity:0.5;
+  opacity: 50%;
+  fill: pink;
  }
 
- .my-circle.hover {
-  border: solid black;
+ .my-circle:hover {
+  stroke: purple;
+  stroke-width: 3px;
  }
 
 
