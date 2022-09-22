@@ -28,4 +28,29 @@ body {
  p{
    color:darkblue
  }
+
+ .container2 {
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .my-rect {
+  fill:rgb(0,0,255)
+ }
+
+ .my-rect:hover {
+  fill:rgb(10,10,200);
+  border:solid black;
+ }
+
+ .my-circle {
+  fill:rgb(255,0,0)
+  opacity:0.5;
+ }
+
+ .my-circle.hover {
+  border: solid black;
+ }
+
+
  
