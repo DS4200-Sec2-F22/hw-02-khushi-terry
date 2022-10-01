@@ -1,64 +1,8 @@
 
-body {
-    font-family: Arial
+.center iframe {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
 }
-
- h1{
-    text-align: center;
- }
-
- h2{
-    text-align: left;
- }
-
- th{
-    background-color: lightblue;
- }
-
- table {
-    width: 100%;
-  }
-
-  .container {
-   display: flex;
-   justify-content:center;
-   align-items: center;
- }
-
- p{
-   color:darkblue
- }
- .circle {
-   width:100px;
-   height:100px;
-   opacity: 50%;
-   fill:aqua;
- }
-
- .circle:hover{
-   stroke:black
- }
-
- .rect{
-   width:100px;
-   height:100px;
-   fill:aquamarine;
-   stroke-width: 5px;
-   stroke:rgb(3, 4, 4);
- }
-
- .rect:hover{
-   fill: blueviolet;
- }
-
- #decoration{
-   display:flex;
-   justify-content: space-between;
- }
-
- .img-wrap {
-  width: 100%;
-  display: flex;
-  justify-content: center;
- }
 
